@@ -1,7 +1,7 @@
 var randomNo1 = Math.floor(Math.random()*6)+1;
 var randomNo2 = Math.floor(Math.random()*6)+1;
-var x = "images/dice"+randomNo1+".png";
-var y = "images/dice"+randomNo2+".png";
+var x = "dice"+randomNo1+".png";
+var y = "dice"+randomNo2+".png";
 document.querySelector(".img1").setAttribute("src",x);
 document.querySelector(".img2").setAttribute("src",y);
 pika();
